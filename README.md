@@ -2,6 +2,6 @@
 
 Web Development
 
-Live site: https://vincegarcia-dev.github.io/Michael-s-PC-Clinic/
+Live site: https://vincegarcia-dev.github.io/Vince-Garcia-PC-Clinic/
 
-Main site:https://github.com/vincegarcia-dev/Michael-s-PC-Clinic.git
+Main site:https://github.com/vincegarcia-dev/Vince-Garcia-PC-Clinic.git
