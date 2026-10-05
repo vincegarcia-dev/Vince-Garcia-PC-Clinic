@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #1a1f1d;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+/* header */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 30px;
+  background-color: #17211d;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* main content */
+.content {
+  flex: 1;
+  padding: 0 30px 20px 30px;
+}
+
+h2 {
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 17px;
+  margin-bottom: 14px;
+}
+
+/* services */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 17px;
+}
+
+.service-card {
+  padding: 14px 17px 22px 17px;
+  background-color: #f3f8f5;
+  border-left: 3px solid #1a7a54;
+  border-radius: 8px;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  background-color: #e2f1e8;
+  border-radius: 10px;
+}
+
+.service-card h3 {
+  margin-top: 18px;
+  font-size: 17px;
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1a7a54;
+}
+
+/* opening hours table */
+.hours-table {
+  width: 291px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.hours-table th, .hours-table td {
+  padding: 7px 14px;
+  text-align: left;
+  border: 1px solid #c9c9c9;
+  justify-content: center;
+}
+
+.hours-table th {
+  background-color: #e2f1e8;
+}
+
+/* booking form */
+.form-note {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.field {
+  margin-bottom: 11px;
+  font-size: 14px;
+}
+
+.field input {
+  width: 158px;
+  height: 18px;
+  margin-left: 2px;
+}
+
+fieldset {
+  width: 355px;
+  margin-bottom: 14px;
+  padding: 2px 12px 8px 12px;
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+}
+
+legend {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1a7a54;
+}
+
+.radio {
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 17px;
+  font-size: 13px;
+  color: white;
+  background-color: #1a7a54;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9c1649;
+}
+
+/* footer */
+.site-footer {
+  padding: 18px 30px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: #17211d;
+}
+
+/* phone screens */
+@media (max-width: 720px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header {
+    flex-direction: column;
+  }
+
+  fieldset {
+    width: 100%;
+  }
+}
